@@ -79,7 +79,3 @@ module "firewall_rules" {
   network_name = module.vpc.network_name
   rules        = local.rules
 }
-/*
-provider "google" {
-  credentials = file("tf-demo.json")
-}*/
